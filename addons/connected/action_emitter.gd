@@ -17,6 +17,7 @@ signal canceled_action(action: Action)
 
 func _ready():
 	add_to_group("action-emitters")
+	name = "ActionEmitter"
 	
 	emitted_action.connect(on_emitted_action)
 	canceled_action.connect(on_canceled_action)

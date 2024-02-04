@@ -22,9 +22,7 @@ func connect_action_emitter(action_emitter: ActionEmitter):
 			
 
 func disconnect_action_emitter(action_emitter: ActionEmitter):
-	print("ENTRO DISCONNECT")
 	if action_emitter.emitted_action.is_connected(on_action_emitter_action):
-		print("paso if")
 		emitters.erase(action_emitter)
 		action_emitter.emitted_action.disconnect(on_action_emitter_action)
 		action_emitter_disconnected.emit(action_emitter)
