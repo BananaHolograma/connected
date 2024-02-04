@@ -9,9 +9,9 @@ signal canceled_action(action: Action)
 	set(value):
 		if value != disabled and is_node_ready():
 			if value:
-				action_interactor_brain.connect_to_action_emitter(self)
+				action_interactor_brain.disconnect_action_emitter(self)
 			else:
-				action_interactor_brain.disconnect_from_action_emitter(self)
+				action_interactor_brain.connect_action_emitter(self)
 		disabled = value
 
 
@@ -22,14 +22,14 @@ func _ready():
 	canceled_action.connect(on_canceled_action)
 	
 	if not disabled:
-		action_interactor_brain.connect_to_action_emitter(self)
+		action_interactor_brain.connect_action_emitter(self)
 	
 	
 func _exit_tree():
-	action_interactor_brain.disconnect_from_action_emitter(self)
+	action_interactor_brain.disconnect_action_emitter(self)
 	
 	
-func emit(action: Action):
+func send(action: Action):
 	if disabled or not action.is_listened:
 		return
 	
@@ -39,7 +39,8 @@ func emit(action: Action):
 		emitted_action.emit(action)
 	else:
 		canceled_action.emit(action)
-	
+
+
 
 func enable() -> void:
 	disabled = false

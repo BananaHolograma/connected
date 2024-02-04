@@ -38,7 +38,6 @@ func add_ignored_by_categories(categories: Array, overwrite: bool = false) -> vo
 	ignored_by.append_array(categories)
 	
 
-
 func _generate_random_id(length: int = 20, characters: String =  "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"):
 	var random_number_generator = RandomNumberGenerator.new()
 	var result = ""
