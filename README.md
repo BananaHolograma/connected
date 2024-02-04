@@ -1,5 +1,5 @@
 <p align="center">
-	<img width="256px" src="https://github.com/bananaholograma/connected/blob/main/icon.jpg" alt="bananaholograma connected plugin logo" />
+	<img width="256px" src="https://github.com/bananaholograma/connected/blob/main/icon.png" alt="bananaholograma connected plugin logo" />
 	<h1 align="center">Connected</h1>
 	
 [![LastCommit](https://img.shields.io/github/last-commit/bananaholograma/connected?cacheSeconds=600)](https://github.com/bananaholograma/connected/commits)

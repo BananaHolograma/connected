@@ -1,5 +1,5 @@
 <p align="center">
-	<img width="256px" src="https://github.com/bananaholograma/connected/blob/main/icon.jpg" alt="bananaholograma connected plugin logo" />
+	<img width="256px" src="https://github.com/bananaholograma/connected/blob/main/icon.png" alt="bananaholograma connected plugin logo" />
 	<h1 align="center">Connected</h1>
 	
 [![LastCommit](https://img.shields.io/github/last-commit/bananaholograma/connected?cacheSeconds=600)](https://github.com/bananaholograma/connected/commits)
@@ -10,7 +10,7 @@
 [![Kofi](https://badgen.net/badge/icon/kofi?icon=kofi&label)](https://ko-fi.com/bananaholograma)
 </p>
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/bananaholograma/[PLUGIN]/blob/main/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/bananaholograma/connected/blob/main/README.md)
 
 - - -
 
@@ -228,9 +228,9 @@ func on_listened_action(action: SpellAction):
 ```
 
 # ✌️Eres bienvenido a
-- [Dar feedback](https://github.com/bananaholograma/[PLUGIN]/pulls)
-- [Sugerir mejoras](https://github.com/bananaholograma/[PLUGIN]/issues/new?assignees=BananaHolograma&labels=enhancement&template=feature_request.md&title=)
-- [Reportar bugs](https://github.com/bananaholograma/[PLUGIN]/issues/new?assignees=BananaHolograma&labels=bug%2C+task&template=bug_report.md&title=)
+- [Dar feedback](https://github.com/bananaholograma/connected/pulls)
+- [Sugerir mejoras](https://github.com/bananaholograma/connected/issues/new?assignees=BananaHolograma&labels=enhancement&template=feature_request.md&title=)
+- [Reportar bugs](https://github.com/bananaholograma/connected/issues/new?assignees=BananaHolograma&labels=bug%2C+task&template=bug_report.md&title=)
 
 Este plugin esta disponible de forma gratuita.
 
@@ -240,7 +240,7 @@ Si estas agradecido por lo que hacemos, por favor, considera hacer una donación
 # 🤝Normas de contribución
 **¡Gracias por tu interes en este plugin!**
 
-Para garantizar un proceso de contribución fluido y colaborativo, revise nuestras [directrices de contribución](https://github.com/bananaholograma/[PLUGIN]/blob/main/CONTRIBUTING.md) antes de empezar. Estas directrices describen las normas y expectativas que mantenemos en este proyecto.
+Para garantizar un proceso de contribución fluido y colaborativo, revise nuestras [directrices de contribución](https://github.com/bananaholograma/connected/blob/main/CONTRIBUTING.md) antes de empezar. Estas directrices describen las normas y expectativas que mantenemos en este proyecto.
 
 **📓Código de conducta:** En este proyecto nos adherimos estrictamente al [Código de conducta de Godot](https://godotengine.org/code-of-conduct/). Como colaborador, es importante respetar y seguir este código para mantener una comunidad positiva e inclusiva.
 - - -
