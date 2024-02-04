@@ -60,6 +60,8 @@ Este es el núcleo del plugin y recomendamos no alterar su funcionalidad ya que 
 
 Siempre que **deshabilites o habilites un ActionEmitter & ActionListener** este singleton emite la señal correspondiente para informar de su conexión o desconexión en caso de que quieras reaccionar a estos cambios.
 
+***La propagación se basa en la propiedad `priority` de los `ActionListeners` que reaccionarán a esta acción, así que los listeners con un mayor prioridad recibirán la acción antes que los otros.***
+
 ```python
 ## Obten todos los ActionEmitter activos
 ActionInteractor.emitters
