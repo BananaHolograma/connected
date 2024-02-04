@@ -10,13 +10,16 @@ config_version=5
 
 [application]
 
-config/name="GodotParadiseHealthComponent"
-config/description="Effortlessly simulate health and damage for entities within your video game.
-
-This component handles all aspects related to taking damage and managing health on the parent node. While typically added to a `CharacterBody2D`, there are no limitations preventing its use with a `StaticRigidBody2D`, allowing you to imbue life into objects like trees or other in-game elements.
-"
+config/name="Connected"
+config/description="It uses a minimalist, node-oriented event system that fits perfectly with the Godot philosophy."
+config/version="1.0.0"
+config/tags=PackedStringArray("eventsystem", "plugin")
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+ActionInteractor="*res://addons/connected/action_interactor_brain.gd"
 
 [dotnet]
 
@@ -24,7 +27,7 @@ project/assembly_name="GodotParadiseHealthComponent"
 
 [editor_plugins]
 
-enabled=PackedStringArray()
+enabled=PackedStringArray("res://addons/connected/plugin.cfg")
 
 [rendering]
 
