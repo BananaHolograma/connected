@@ -5,7 +5,6 @@ signal action_emitter_disconnected(action_emitter: ActionEmitter)
 signal action_listener_connected(action_listener: ActionListener)
 signal action_listener_disconnected(action_listener: ActionListener)
 
-
 @onready var emitters: Array[ActionEmitter] = get_current_action_emitters()
 @onready var listeners: Array[ActionListener] = get_current_action_listeners()
 

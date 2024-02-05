@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Connected"
 config/description="It uses a minimalist, node-oriented event system that fits perfectly with the Godot philosophy."
-config/version="1.0.0"
+config/version="1.0.1"
 config/tags=PackedStringArray("eventsystem", "plugin")
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"

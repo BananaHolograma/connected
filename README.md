@@ -47,7 +47,7 @@ A minimalist node-oriented event system that fits perfectly with the Godot philo
 
 # ✨Installation
 ## Automatic (Recommended)
-You can download this plugin from the official [Godot asset library](https://godotengine.org/asset-library/asset/[PLUGIN-ID]) using the AssetLib tab in your godot editor. Once installed, you're ready to get started
+You can download this plugin from the official [Godot asset library](https://godotengine.org/asset-library/asset/2572) using the AssetLib tab in your godot editor. Once installed, you're ready to get started
 ##  Manual 
 To manually install the plugin, create an **"addons"** folder at the root of your Godot project and then download the contents from the **"addons"** folder of this repository
 
