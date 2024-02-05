@@ -5,7 +5,7 @@
 [![LastCommit](https://img.shields.io/github/last-commit/bananaholograma/connected?cacheSeconds=600)](https://github.com/bananaholograma/connected/commits)
 [![Stars](https://img.shields.io/github/stars/bananaholograma/connected)](https://github.com/bananaholograma/connected/stargazers)
 [![Total downloads](https://img.shields.io/github/downloads/bananaholograma/connected/total.svg?label=Downloads&logo=github&cacheSeconds=600)](https://github.com/bananaholograma/connected/releases)
-[![License](https://img.shields.io/github/license/bananaholograma/connected?cacheSeconds=2592000)](https://github.com/bananaholograma/connected/blob/main/LICENSE.md)
+[![License](https://img.shields.io/github/license/bananaholograma/connected?cacheSeconds=1440)](https://github.com/bananaholograma/connected/blob/main/LICENSE.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/bananaholograma/connected/pulls)
 [![Kofi](https://badgen.net/badge/icon/kofi?icon=kofi&label)](https://ko-fi.com/bananaholograma)
 </p>

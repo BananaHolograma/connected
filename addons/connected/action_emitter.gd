@@ -3,33 +3,18 @@ class_name ActionEmitter extends Node
 signal emitted_action(action: Action)
 signal canceled_action(action: Action)
 
-@onready var action_interactor_brain: ActionInteractorBrain = get_tree().get_first_node_in_group("action-interactor-brain") as ActionInteractorBrain
-
-@export var disabled := false:
-	set(value):
-		if value != disabled and is_node_ready():
-			if value:
-				action_interactor_brain.disconnect_action_emitter(self)
-			else:
-				action_interactor_brain.connect_action_emitter(self)
-		disabled = value
+@export var disabled := false
 
 
-func _ready():
+func _enter_tree():
 	add_to_group("action-emitters")
 	name = "ActionEmitter"
 	
+func _ready():
 	emitted_action.connect(on_emitted_action)
 	canceled_action.connect(on_canceled_action)
 	
-	if not disabled:
-		action_interactor_brain.connect_action_emitter(self)
-	
-	
-func _exit_tree():
-	action_interactor_brain.disconnect_action_emitter(self)
-	
-	
+
 func send(action: Action):
 	if disabled or not action.is_listened:
 		return
