@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnxba4ssmg0or"
-path="res://.godot/imported/action-emitter.svg-1c779469d1f2756478f3b54346c07012.ctex"
+path="res://.godot/imported/action-emitter.svg-5ccd8975f1dd3de38a271bea5ad7f637.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/icons/action-emitter.svg"
-dest_files=["res://.godot/imported/action-emitter.svg-1c779469d1f2756478f3b54346c07012.ctex"]
+source_file="res://addons/connected/icons/action-emitter.svg"
+dest_files=["res://.godot/imported/action-emitter.svg-5ccd8975f1dd3de38a271bea5ad7f637.ctex"]
 
 [params]
 
